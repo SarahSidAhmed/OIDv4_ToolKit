@@ -35,7 +35,7 @@ def error_csv(file, csv_dir, args_y):
             ans = 'y'
             print(bc.OKBLUE + "Automatic download." + bc.ENDC)
         else:
-            ans = y
+            ans = 'y'
 
         if ans.lower() == 'y':
             folder = str(os.path.basename(file)).split('-')[0]
